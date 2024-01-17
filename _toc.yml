@@ -7,3 +7,45 @@ parts:
         sections:
           - file: 1_intro/1_intro_to_digital_economy.md
           - file: 1_intro/2_intro_to_digital_economics.md
+  - caption: 数字经济技术
+    chapters: 
+      - file: 2_technologies/cloud_computing/README.md
+      - file: 2_technologies/big_data/README.md
+      - file: 2_technologies/artificial_intellgence/README.md
+        sections:
+          - file: 2_technologies/artificial_intellgence/generative_ai/README.md
+      - file: 2_technologies/blockchain_and_web3/README.md
+        sections:
+          - file: 2_technologies/blockchain_and_web3/1_blockchain/README.md
+            sections: 
+              - file: 2_technologies/blockchain_and_web3/1_blockchain/1_intro_to_blockchain.md
+              - file: 2_technologies/blockchain_and_web3/1_blockchain/2_cryptocurrency.md
+              - file: 2_technologies/blockchain_and_web3/1_blockchain/3_smart_contract.md
+          - file: 2_technologies/blockchain_and_web3/2_web3/README.md
+            sections:
+              - file: 2_technologies/blockchain_and_web3/2_web3/1_intro_to_web3.md
+              - file: 2_technologies/blockchain_and_web3/2_web3/2_web3_economy.md
+      - file: 2_technologies/cross_reality_and_metaverse/README.md
+        sections: 
+          - file: 2_technologies/cross_reality_and_metaverse/augmented_reality/README.md
+          - file: 2_technologies/cross_reality_and_metaverse/virtual_reality/README.md
+          - file: 2_technologies/cross_reality_and_metaverse/mixed_reality/README.md
+          - file: 2_technologies/cross_reality_and_metaverse/metaverse/README.md
+      - file: 2_technologies/internet_of_things/README.md
+  - caption: 数字经济产业
+    chapters:
+      - file: 3_industries/digital_finance/README.md
+      - file: 3_industries/smart_city/README.md
+      - file: 3_industries/intelligent_manufacturing/README.md
+      - file: 3_industries/intelligent_construction/README.md
+      - file: 3_industries/smart_farming/README.md
+  - caption: 数字经济学
+    chapters:
+      - file: 4_economics/open_source_economics/README.md
+      - file: 4_economics/cloud_computing_economics/README.md
+      - file: 4_economics/tokenomics/README.md
+      - file: 4_economics/machine_learning_econometrics/README.md
+  - caption: 数字化的研究方法
+    chapters:
+      - file: 5_methodologies/empricial_economics_with_big_data/README.md
+      - file: 5_methodologies/empricial_economics_with_ai/README.md
